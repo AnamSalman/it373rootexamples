@@ -1,0 +1,26 @@
+    1  pwd
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  cd introcode
+    5  gcc-4.8 -S cpu.c -Wall -Werror
+    6  gcc-4.8 -S cpu.c -o cpu -Wall -Werror
+    7  gcc -o cpu -s cpu.c -Wall -Werror
+    8  gcc-4.8 -S cpu.c -Wall -Werror
+    9  ./cpu
+   10  gcc -o cpu -s cpu.c -Wall -Werror
+   11  gcc -S cpu.c -o cpu -Wall -Werror
+   12  gcc -s cpu.c -Wall -Werror
+   13  ./a.out "A"
+   14  ./a.out A & ./a.out B & ./a.out C & ./a.out D &
+   15  history
+   16  exit
+   17  kill 31991
+   18  kill 31992
+   19  ps -all
+   20  kill 31979
+   21  kill 32966
+   22  exit
+   23  pwd
+   24  ps -all
+   25  history
+   26  history > history1.txt
